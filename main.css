@@ -1,0 +1,46 @@
+/* Estilo geral do cabeçalho */
+header {
+    display: flex; /* Use flexbox para criar uma divisão em duas colunas */
+    background-image: url('/assets/bg/bg-header.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 60vh;
+}
+
+.header-content {
+    display: flex; /* Use flexbox para alinhar os elementos internos lado a lado */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+}
+
+/* Estilo da coluna da esquerda (lado preto) */
+.left-column {
+    width: 40vw;
+    height: 60vh;
+    flex: 1; /* Ocupa metade do espaço disponível */
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo da coluna da direita (com imagem de fundo ocupando 50% da largura) */
+.profile-info-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    position: relative;
+    max-width: 150px;
+    border-radius: 100px;
+}
+
+.profile-info h1 {
+    font-size: 40px;
+}
+
+.profile-info h2 {
+    font-size: 30px;
+}

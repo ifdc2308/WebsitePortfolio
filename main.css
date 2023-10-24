@@ -10,11 +10,10 @@ header {
 
 .header-content {
     display: flex; /* Use flexbox para alinhar os elementos internos lado a lado */
-    align-items: center; /* Centraliza verticalmente o conteúdo */
 }
 
 /* Estilo da coluna da esquerda (lado preto) */
-.left-column {
+.profile-container {
     width: 40vw;
     height: 60vh;
     flex: 1; /* Ocupa metade do espaço disponível */
@@ -39,8 +38,10 @@ header {
 
 .profile-info h1 {
     font-size: 40px;
+    padding-left: 20px;
 }
 
 .profile-info h2 {
     font-size: 30px;
+    padding-left: 20px;
 }

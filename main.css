@@ -1,4 +1,9 @@
 /* Estilo geral do cabeçalho */
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
 header {
     display: flex; /* Use flexbox para criar uma divisão em duas colunas */
     background-image: url('/assets/bg/bg-header.jpg');
@@ -44,4 +49,21 @@ header {
 .profile-info h2 {
     font-size: 30px;
     padding-left: 20px;
+}
+
+/*estilos dos menus de navegação*/
+
+.menu-nav {
+  
+}
+
+.menu-nav li {
+    padding: 20px 0px 0px 80px;
+}
+
+.menu-nav a {
+        font-size: 1.125rem;
+        color: #ffffff;
+        text-decoration: none;
+    
 }

@@ -70,31 +70,17 @@ header {
 /* estilos section about */
 
 main {
-    background-image: url('/assets/bg/bg-header.jpg');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    z-index: 1;
+
 }
 
-main::before {
-    content: "";
-    background: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de transparência */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; /* Coloque a sombra à frente do conteúdo de "main" */
-}
 main h1 {
     padding: 40px 0px 40px 40px;
 }
 .section-about {
         display: flex; /* Use flexbox para criar uma divisão em duas colunas */
-        color: #ffffff;
-        height: 60vh;
+        color: #000000;
         padding-inline: 10vw;
+        padding-bottom: 50px;
         
 }
 
@@ -110,4 +96,13 @@ main h1 {
 .info-contato {
     display: flex;
     justify-content: space-between;
+}
+
+.minhas-skills {
+    background-color: #000;
+    color: aqua;
+}
+
+.minhas-skills label {
+    color: #ffffff;
 }

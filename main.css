@@ -35,6 +35,12 @@ header {
     align-items: center;
 }
 
+
+.icon-code {
+width: 2rem;
+padding-left: 1rem;
+}
+
 .profile-img {
     position: relative;
     max-width: 150px;
@@ -99,10 +105,10 @@ main h1 {
 }
 
 .minhas-skills {
-    background-color: #000;
+    background-color: #ffffff;
     color: aqua;
 }
 
-.minhas-skills label {
-    color: #ffffff;
+.icon-skills {
+    width: 3rem;
 }

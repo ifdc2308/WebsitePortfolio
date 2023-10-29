@@ -4,28 +4,21 @@
     font-family: 'Raleway', sans-serif;
 }
 
-header {
-    display: flex; /* Use flexbox para criar uma divisão em duas colunas */
-    background-image: url('/assets/bg/bg-header.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    height: 60vh;
+body {
+    background: linear-gradient(to right, #000000 45%, #0073e6 100%);
 }
 
-.header-content {
-    display: flex; /* Use flexbox para alinhar os elementos internos lado a lado */
+header {
+    color: #ffffff;
 }
 
 /* Estilo da coluna da esquerda (lado preto) */
 .profile-container {
-    width: 40vw;
     height: 60vh;
-    flex: 1; /* Ocupa metade do espaço disponível */
-    background-color: #000;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: left;
+    padding: 20px 0px 0px 30px;
+    display: flex;
     align-items: center;
 }
 
@@ -37,8 +30,8 @@ header {
 
 
 .icon-code {
-width: 2rem;
-padding-left: 1rem;
+    width: 2rem;
+    padding-left: 1rem;
 }
 
 .profile-img {
@@ -60,41 +53,42 @@ padding-left: 1rem;
 /*estilos dos menus de navegação*/
 
 .menu-nav {
-  
+    padding: 15rem 0px 0px 0px;
 }
 
 .menu-nav li {
-    padding: 20px 0px 0px 80px;
+    padding: 20px 0px 0px 0px;
 }
 
 .menu-nav a {
-        font-size: 1.125rem;
-        color: #ffffff;
-        text-decoration: none;
-    
+    font-size: 1.125rem;
+    color: #ffffff;
+    text-decoration: none;
+
 }
+
 /* estilos section about */
 
-main {
-
-}
+main {}
 
 main h1 {
     padding: 40px 0px 40px 40px;
 }
+
 .section-about {
-        display: flex; /* Use flexbox para criar uma divisão em duas colunas */
-        color: #000000;
-        padding-inline: 10vw;
-        padding-bottom: 50px;
-        
+    display: flex;
+    /* Use flexbox para criar uma divisão em duas colunas */
+    color: #ffffff;
+    padding-inline: 10vw;
+    padding-bottom: 50px;
+
 }
 
-.text-about h2{
+.text-about h2 {
     padding-bottom: 10PX;
 }
 
-.text-about h3{
+.text-about h3 {
     padding-top: 20PX;
     padding-bottom: 10PX;
 }
@@ -105,10 +99,18 @@ main h1 {
 }
 
 .minhas-skills {
-    background-color: #ffffff;
-    color: aqua;
+    color: #fff;
+}
+
+.minhas-skills p {
+    padding: 0px 0px 40px 40px;
+}
+
+.skills-container {
+    text-align: center;
 }
 
 .icon-skills {
     width: 3rem;
+    padding: 0 5rem 5rem 0;
 }

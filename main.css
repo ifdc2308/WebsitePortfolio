@@ -6,7 +6,22 @@
 
 body {
     background: linear-gradient(to right, #000000 45%, #0073e6 100%);
+    background-size: 200% 100%; /* Define o tamanho do background */
+    animation: mygradient 10s ease infinite;
 }
+
+@keyframes mygradient {
+    0% {
+        background-position: 100% 50%;
+    }
+    50% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
 
 header {
     color: #ffffff;

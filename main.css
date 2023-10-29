@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Raleway', sans-serif;
+    color: #ffffff;
 }
 
 body {
@@ -25,6 +26,16 @@ body {
 
 header {
     color: #ffffff;
+}
+
+
+.whatsapp-contact {
+    position: fixed;
+    width: 50px;
+    bottom: 0; /* Posiciona a imagem na parte inferior da tela */
+    right: 0; /* Posiciona a imagem à esquerda da tela */
+    padding: 0px 20px 20px 0px;
+    cursor: pointer;
 }
 
 /* Estilo da coluna da esquerda (lado preto) */
